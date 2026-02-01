@@ -1,6 +1,6 @@
 const I18N = {
   en: {
-    "nav.about": "About",
+    "nav.about": "About me",
     "nav.work": "How I work",
     "nav.projects": "Projects",
     "nav.caseStudies": "Case studies",
@@ -9,12 +9,12 @@ const I18N = {
     "hero.headline": "Computer Science student (Management & Entrepreneurship option).",
     "hero.resume": "Resume (PDF)",
 
-    "about.title": "About",
+    "about.title": " About me",
     "about.body": "I’m Anass Benharbit, a Computer Science student (Management & Entrepreneurship option) based in Ottawa. I enjoy building practical software—from full‑stack web projects to data/ML prototypes—and I like working in structured, deadline-driven environments. During my internship, I built a fraud detection prototype using Python (Isolation Forest) and explored recurring transaction pattern detection. I’m collaborative, detail‑oriented, and comfortable working in multicultural teams (French, English, Arabic; Spanish intermediate).",
 
     "work.title": "How I work",
     "work.collabTitle": "Collaborative",
-    "work.collabBody": "I like clear communication, small iterations, and shared ownership.",
+    "work.collabBody": "I communicate clearly, align early on goals, and iterate fast with feedback.",
     "work.processTitle": "Process-driven",
     "work.processBody": "Define goals → design → implement → test → refine with feedback.",
     "work.qualityTitle": "Quality-focused",
@@ -48,7 +48,7 @@ const I18N = {
   },
 
   fr: {
-    "nav.about": "À propos",
+    "nav.about": "À propos de moi",
     "nav.work": "Ma façon de travailler",
     "nav.projects": "Projets",
     "nav.caseStudies": "Études de cas",
@@ -57,12 +57,12 @@ const I18N = {
     "hero.headline": "Étudiant en informatique (option Gestion & Entrepreneuriat).",
     "hero.resume": "CV (PDF)",
 
-    "about.title": "À propos",
+    "about.title": "À propos de moi",
     "about.body": "Je suis Anass Benharbit, étudiant en informatique (option Gestion et Entrepreneuriat) à Ottawa. J’aime construire des logiciels concrets—des projets web full‑stack jusqu’à des prototypes data/ML—et je travaille bien dans des environnements structurés avec des deadlines. Lors de mon stage, j’ai développé un prototype de détection de fraude en Python (Isolation Forest) et travaillé sur l’identification de motifs de transactions récurrentes. Je suis collaboratif, rigoureux, et à l’aise dans des équipes multiculturelles (français, anglais, arabe; espagnol intermédiaire).",
 
     "work.title": "Ma façon de travailler",
     "work.collabTitle": "Collaboratif",
-    "work.collabBody": "Communication claire, itérations courtes, responsabilité partagée.",
+    "work.collabBody": "Je communique clairement, j’aligne les objectifs tôt, et j’itère rapidement avec le feedback.",
     "work.processTitle": "Méthode",
     "work.processBody": "Objectifs → design → implémentation → tests → amélioration avec feedback.",
     "work.qualityTitle": "Qualité",
