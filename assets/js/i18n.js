@@ -20,13 +20,11 @@ const I18N = {
     "work.qualityBody": "I aim for readable code, consistent UI, and on-time delivery.",
 
     "projects.title": "Projects / Case studies",
-    "projects.note": "Projects with a short case study (details).",
-
-    "p.detailsBtn": "Details",
+    "projects.note": "Projects with a short case study under each card.",
     "p.cs.title": "Case study",
 
     "p1.title": "Hotel Website (Team Project)",
-    "p1.desc": "Team-built hotel website delivered across 4 deadline-based milestones.",
+    "p1.desc": "A team-built hotel website delivered across four milestone-based releases with strict deadlines. We implemented a clear navigation structure and database-backed features using HTML, Python, and SQL. Each deliverable improved the UI consistency, end-to-end flow, and overall reliability.",
     "p1.cs.context": "Context: Course team project delivered in 4 milestones with strict deadlines.",
     "p1.cs.role": "My role: Contributed to implementation, coordinated tasks across deliverables, and kept the UI consistent as features grew.",
     "p1.cs.constraints": "Constraints: Fixed stack (HTML + Python + SQL), multiple submissions, and the need to integrate UI with database-backed features.",
@@ -34,7 +32,7 @@ const I18N = {
     "p1.cs.outcome": "Outcome: Delivered a clean, consistent interface under deadline pressure and improved my teamwork and planning habits.",
 
     "p2.title": "Image Similarity Search",
-    "p2.desc": "Similarity search: compare a query image set against a large dataset, delivered across multiple languages/paradigms.",
+    "p2.desc": "Similarity search project: compare a set of query images against a larger dataset and return the closest matches. The solution was implemented multiple times (Java, Go, Prolog, Scheme) to explore different paradigms and trade-offs. Focus was on consistent results, measurable comparison logic, and performance considerations.",
     "p2.cs.context": "Context: Academic project with multiple deliverables, each requiring the same problem to be solved using a different language.",
     "p2.cs.role": "My role: Implemented the pipeline and ensured results stayed consistent across Java, Go, Prolog, and Scheme versions.",
     "p2.cs.constraints": "Constraints: Same functional requirements across languages, performance considerations on larger datasets, and clear evaluation of similarity results.",
@@ -42,7 +40,7 @@ const I18N = {
     "p2.cs.outcome": "Outcome: Strengthened algorithmic thinking and learned how design choices change across imperative, compiled, and logic/functional paradigms.",
 
     "p3.title": "AI / ML / DL (Jupyter Deliverables)",
-    "p3.desc": "End-to-end ML workflow across 4 deliverables: data handling, preprocessing, model evaluation, tuning, and experimentation.",
+    "p3.desc": "End-to-end machine learning workflow across four Jupyter deliverables: dataset handling, preprocessing, model training, evaluation, and tuning. I compared multiple approaches using clear metrics and reproducible experiments. The project also included neural network building, regularization techniques, and structured reporting of results.",
     "p3.cs.context": "Context: Coursework split into 4 Jupyter-based deliverables, each building on the previous one.",
     "p3.cs.role": "My role: Implemented the notebooks with a focus on reproducible experiments, clean preprocessing, and clear reporting.",
     "p3.cs.constraints": "Constraints: Deliverables with deadlines, iterative requirements, and the need to justify metrics, model choices, and tuning decisions.",
@@ -50,7 +48,7 @@ const I18N = {
     "p3.cs.outcome": "Outcome: Improved my ability to turn raw data into measurable results, and to explain model performance with evidence and clear visuals.",
 
     "p4.title": "Android App (Admin/Employee/Customer)",
-    "p4.desc": "Role-based Android app: admins manage services; clients search branches by address, service type, and opening hours.",
+    "p4.desc": "Android application supporting three user roles: administrator, branch employee, and client. Admins can create/update/delete services offered by branches, while clients can search branches by address, service type, and opening hours. The project emphasizes role-based UX, clean navigation, and reliable CRUD + search flows.",
     "p4.cs.context": "Context: Mobile app project with multiple user roles and distinct flows (admin, branch employee, client).",
     "p4.cs.role": "My role: Implemented core screens and role-based flows, focusing on clarity and preventing users from accessing unauthorized actions.",
     "p4.cs.constraints": "Constraints: Clear separation of responsibilities, consistent navigation, and search UX that remains simple on mobile screens.",
@@ -58,7 +56,7 @@ const I18N = {
     "p4.cs.outcome": "Outcome: Built a structured role-based UX and strengthened my ability to design simple mobile interactions for complex requirements.",
 
     "p5.title": "Fraud & Recurrence (Internship)",
-    "p5.desc": "Internship project: prototype for fraud detection and recurring transaction pattern analysis using machine learning.",
+    "p5.desc": "Internship prototype focused on fraud detection and recurring transaction pattern analysis using machine learning. I explored anomaly detection with Isolation Forest and iterated on feature design to improve signal quality. The goal was to validate feasibility quickly and produce interpretable outputs for further development.",
     "p5.cs.context": "Context: Internship work focused on a prototype and exploration of fraud signals in transaction data.",
     "p5.cs.role": "My role: Built a Python prototype using Isolation Forest and experimented with identifying recurrent patterns in transactions.",
     "p5.cs.constraints": "Constraints: Data quality and signal-to-noise challenges, need for explainable outputs, and rapid iteration to validate feasibility.",
@@ -89,13 +87,11 @@ const I18N = {
     "work.qualityBody": "Code lisible, UI cohérente, livraison à temps.",
 
     "projects.title": "Projets / Études de cas",
-    "projects.note": "Projets avec une mini étude de cas (détails).",
-
-    "p.detailsBtn": "Détails",
+    "projects.note": "Projets avec une mini étude de cas sous chaque carte.",
     "p.cs.title": "Étude de cas",
 
     "p1.title": "Site web d’hôtel (projet en équipe)",
-    "p1.desc": "Site d’hôtel développé en équipe, livré en 4 livrables avec deadlines.",
+    "p1.desc": "Site web d’hôtel développé en équipe, livré en quatre livrables avec des deadlines strictes. Nous avons mis en place une navigation claire et des fonctionnalités reliées à une base de données en HTML, Python et SQL. Chaque remise a amélioré la cohérence de l’interface, le parcours utilisateur et la fiabilité globale.",
     "p1.cs.context": "Contexte : Projet de cours en équipe livré en 4 étapes avec des deadlines strictes.",
     "p1.cs.role": "Mon rôle : Participation à l’implémentation, coordination des tâches entre livrables, et maintien d’une UI cohérente au fur et à mesure.",
     "p1.cs.constraints": "Contraintes : Stack imposée (HTML + Python + SQL), plusieurs remises, et intégration UI avec des fonctionnalités liées à la base de données.",
@@ -103,7 +99,7 @@ const I18N = {
     "p1.cs.outcome": "Résultat : Une interface propre et cohérente livrée sous pression, avec une meilleure planification et collaboration.",
 
     "p2.title": "Recherche de similarité d’images",
-    "p2.desc": "Comparer un set d’images de requête à un grand dataset, livré avec plusieurs langages/paradigmes.",
+    "p2.desc": "Projet de recherche de similarité : comparer un ensemble d’images requêtes à un grand dataset et retourner les correspondances les plus proches. La solution a été implémentée plusieurs fois (Java, Go, Prolog, Scheme) pour explorer différents paradigmes et compromis. L’objectif était d’obtenir des résultats cohérents, une logique de comparaison mesurable, et de bonnes performances.",
     "p2.cs.context": "Contexte : Projet académique en plusieurs livrables, le même problème devant être résolu dans différents langages.",
     "p2.cs.role": "Mon rôle : Implémentation du pipeline et vérification de la cohérence des résultats entre Java, Go, Prolog et Scheme.",
     "p2.cs.constraints": "Contraintes : Exigences identiques entre langages, performance sur datasets plus grands, et évaluation claire des résultats de similarité.",
@@ -111,7 +107,7 @@ const I18N = {
     "p2.cs.outcome": "Résultat : Meilleure maîtrise algorithmique et compréhension des différences entre paradigmes impératif, compilé, logique et fonctionnel.",
 
     "p3.title": "IA / ML / DL (livrables Jupyter)",
-    "p3.desc": "Workflow ML complet en 4 livrables : données, prétraitement, évaluation, optimisation et expérimentations.",
+    "p3.desc": "Workflow complet en machine learning sur quatre livrables Jupyter : manipulation du dataset, prétraitement, entraînement, évaluation et optimisation. J’ai comparé plusieurs approches avec des métriques claires et des expériences reproductibles. Le projet inclut aussi la construction de réseaux de neurones, des techniques de régularisation et un reporting structuré des résultats.",
     "p3.cs.context": "Contexte : Cours structuré en 4 livrables Jupyter, chaque étape construisant la suivante.",
     "p3.cs.role": "Mon rôle : Implémentation des notebooks en mettant l’accent sur la reproductibilité, le prétraitement propre et un reporting clair.",
     "p3.cs.constraints": "Contraintes : Deadlines, exigences évolutives, et justification des métriques, des modèles et des choix d’optimisation.",
@@ -119,7 +115,7 @@ const I18N = {
     "p3.cs.outcome": "Résultat : Meilleure capacité à passer des données brutes à des résultats mesurables et à expliquer la performance avec des preuves.",
 
     "p4.title": "Application Android (admin/employé/client)",
-    "p4.desc": "Appli à rôles : admin gère les services; clients cherchent une succursale (adresse/service/horaires).",
+    "p4.desc": "Application Android avec trois rôles : administrateur, employé de succursale et client. L’administrateur peut créer/modifier/supprimer les services offerts, et le client peut rechercher une succursale par adresse, type de service et horaires. Le projet met l’accent sur une UX par rôles, une navigation claire, et des parcours CRUD + recherche fiables.",
     "p4.cs.context": "Contexte : Projet mobile avec plusieurs rôles utilisateurs et des parcours distincts (admin, employé, client).",
     "p4.cs.role": "Mon rôle : Implémentation des écrans principaux et des parcours par rôles, en assurant une navigation claire et des actions autorisées.",
     "p4.cs.constraints": "Contraintes : Séparation des responsabilités, navigation cohérente, et UX de recherche simple sur écran mobile.",
@@ -127,7 +123,7 @@ const I18N = {
     "p4.cs.outcome": "Résultat : Une UX structurée par rôles et une meilleure maîtrise de la conception d’interactions mobiles pour des besoins complexes.",
 
     "p5.title": "Fraude & récurrence (stage)",
-    "p5.desc": "Projet de stage : prototype de détection de fraude et analyse de motifs récurrents via machine learning.",
+    "p5.desc": "Prototype réalisé en stage sur la détection de fraude et l’analyse de transactions récurrentes via machine learning. J’ai exploré la détection d’anomalies avec Isolation Forest et itéré sur la création de features pour améliorer la qualité du signal. L’objectif était de valider rapidement la faisabilité et de produire des résultats interprétables pour la suite.",
     "p5.cs.context": "Contexte : Travail de stage axé sur un prototype et l’exploration de signaux de fraude dans des données de transactions.",
     "p5.cs.role": "Mon rôle : Création d’un prototype Python (Isolation Forest) et tests pour détecter des motifs de transactions récurrents.",
     "p5.cs.constraints": "Contraintes : Qualité des données, signal/bruit, besoin d’outputs compréhensibles, et itérations rapides pour valider la faisabilité.",
