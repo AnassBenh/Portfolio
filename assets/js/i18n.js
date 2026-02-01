@@ -2,7 +2,7 @@ const I18N = {
   en: {
     "nav.about": "About me",
     "nav.work": "How I work",
-    "nav.projects": "Projects / Case studies",
+    "nav.projects": "Projects",
 
     "hero.kicker": "Computer Science",
     "hero.headline": "Computer Science student (Management & Entrepreneurship option).",
@@ -19,9 +19,7 @@ const I18N = {
     "work.qualityTitle": "Quality-focused",
     "work.qualityBody": "I aim for readable code, consistent UI, and on-time delivery.",
 
-    "projects.title": "Projects / Case studies",
-    "projects.note": "Projects with a short case study under each card.",
-    "p.cs.title": "Case study",
+    "projects.title": "Projects",
 
     "p1.title": "Hotel Website (Team Project)",
     "p1.desc": "A team-built hotel website delivered across four milestone-based releases with strict deadlines. We implemented a clear navigation structure and database-backed features using HTML, Python, and SQL. Each deliverable improved the UI consistency, end-to-end flow, and overall reliability.",
@@ -69,7 +67,7 @@ const I18N = {
   fr: {
     "nav.about": "À propos de moi",
     "nav.work": "Ma façon de travailler",
-    "nav.projects": "Projets / Études de cas",
+    "nav.projects": "Projets",
 
     "hero.kicker": "Informatique",
     "hero.headline": "Étudiant en informatique (option Gestion & Entrepreneuriat).",
@@ -86,9 +84,7 @@ const I18N = {
     "work.qualityTitle": "Qualité",
     "work.qualityBody": "Code lisible, UI cohérente, livraison à temps.",
 
-    "projects.title": "Projets / Études de cas",
-    "projects.note": "Projets avec une mini étude de cas sous chaque carte.",
-    "p.cs.title": "Étude de cas",
+    "projects.title": "Projets",
 
     "p1.title": "Site web d’hôtel (projet en équipe)",
     "p1.desc": "Site web d’hôtel développé en équipe, livré en quatre livrables avec des deadlines strictes. Nous avons mis en place une navigation claire et des fonctionnalités reliées à une base de données en HTML, Python et SQL. Chaque remise a amélioré la cohérence de l’interface, le parcours utilisateur et la fiabilité globale.",
