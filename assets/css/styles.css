@@ -30,31 +30,26 @@ body{
 .navbar .nav-link, .navbar .navbar-brand { color: var(--text) !important; }
 .navbar .nav-link:hover { color: #ffffff !important; }
 
-/* Cards / accordion */
-.card-min, .accordion-item{
+/* Cards */
+.card-min{
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.25);
 }
 
+/* Badge style in dark theme */
 .badge.text-bg-light{
   background: rgba(255,255,255,0.10) !important;
   color: var(--text) !important;
   border: 1px solid var(--border);
 }
 
-/* Accordion buttons (dark theme) */
-.accordion-button{
-  background: rgba(255,255,255,0.04) !important;
-  color: var(--text) !important;
-}
-.accordion-button:not(.collapsed){
-  background: rgba(59,130,246,0.10) !important;
-  color: #fff !important;
-}
-.accordion-button:focus{
-  box-shadow: none !important;
+/* Inner panel for details (case study inside each project) */
+.inner-panel{
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border);
+  border-radius: 14px;
 }
 
 /* Profile image */
@@ -74,10 +69,7 @@ body{
   font-weight: 600;
   line-height: 1.1;
 }
-
-.btn, .btn:focus{
-  box-shadow: none !important;
-}
+.btn, .btn:focus{ box-shadow: none !important; }
 
 .btn-primary{
   background: var(--accent);
@@ -93,12 +85,8 @@ body{
   border-color: rgba(255,255,255,0.35) !important;
 }
 
-.btn-outline-primary{
-  color: var(--accent);
-  border-color: rgba(59,130,246,0.55);
-}
-.btn-outline-primary:hover{
-  background: rgba(59,130,246,0.12);
-  border-color: rgba(59,130,246,0.85);
-  color: #fff;
+/* Make small buttons consistent too */
+.btn.btn-sm{
+  padding: 8px 12px;
+  border-radius: 10px;
 }
