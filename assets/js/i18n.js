@@ -14,7 +14,7 @@ const I18N = {
 
     "work.title": "How I work",
     "work.collabTitle": "Collaborative",
-    "work.collabBody": "I communicate clearly, align early on goals, and iterate fast with feedback.",
+    "work.collabBody": "Collaborative, methodical, and quality-oriented mindset",
     "work.processTitle": "Process-driven",
     "work.processBody": "Define goals → design → implement → test → refine with feedback.",
     "work.qualityTitle": "Quality-focused",
@@ -58,11 +58,11 @@ const I18N = {
     "hero.resume": "CV (PDF)",
 
     "about.title": "À propos de moi",
-    "about.body": "Je suis Anass Benharbit, étudiant en informatique (option Gestion et Entrepreneuriat) à Ottawa. J’aime construire des logiciels concrets—des projets web full‑stack jusqu’à des prototypes data/ML—et je travaille bien dans des environnements structurés avec des deadlines. Lors de mon stage, j’ai développé un prototype de détection de fraude en Python (Isolation Forest) et travaillé sur l’identification de motifs de transactions récurrentes. Je suis collaboratif, rigoureux, et à l’aise dans des équipes multiculturelles (français, anglais, arabe; espagnol intermédiaire).",
+    "about.body": "Je suis Anass Benharbit, étudiant en informatique (option Gestion et Entrepreneuriat) à Ottawa. J’aime construire des logiciels concrets—des projets web full‑stack jusqu’à des prototypes data/ML—et je travaille bien dans des environnements structurés avec des deadlines. Lors de mon stage, j’ai développé un prototype de détection de fraude en Python (Isolation Forest) et travaillé sur l’identification de motifs de transactions récurrentes. Je suis collaboratif, rigoureux, et à je m’adapte facilement à des équipes multiculturelles (français, anglais, arabe; espagnol intermédiaire).",
 
     "work.title": "Ma façon de travailler",
     "work.collabTitle": "Collaboratif",
-    "work.collabBody": "Je communique clairement, j’aligne les objectifs tôt, et j’itère rapidement avec le feedback.",
+    "work.collabBody": "Esprit collaboratif, methodique et orienté qualité",
     "work.processTitle": "Méthode",
     "work.processBody": "Objectifs → design → implémentation → tests → amélioration avec feedback.",
     "work.qualityTitle": "Qualité",
