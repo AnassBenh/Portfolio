@@ -7,9 +7,10 @@ const I18N = {
 
     "hero.kicker": "Computer Science",
     "hero.headline": "Computer Science student (Management & Entrepreneurship option).",
+    "hero.resume": "Resume (PDF)",
 
     "about.title": "About",
-    "about.body": "I’m Anass Benharbit, a Computer Science student (Management & Entrepreneurship option) based in Ottawa. I enjoy building practical software—from full‑stack web projects to data/ML prototypes—and I like working in structured, deadline-driven environments. During my internship, I built a fraud detection prototype using Python and worked with data workflows and optimization topics, which strengthened my problem‑solving and analytical approach. I’m collaborative, detail‑oriented, and I communicate clearly in multicultural teams (French, English, Arabic; Spanish intermediate).",
+    "about.body": "I’m Anass Benharbit, a Computer Science student (Management & Entrepreneurship option) based in Ottawa. I enjoy building practical software—from full‑stack web projects to data/ML prototypes—and I like working in structured, deadline-driven environments. During my internship, I built a fraud detection prototype using Python (Isolation Forest) and explored recurring transaction pattern detection. I’m collaborative, detail‑oriented, and comfortable working in multicultural teams (French, English, Arabic; Spanish intermediate).",
 
     "work.title": "How I work",
     "work.collabTitle": "Collaborative",
@@ -54,9 +55,10 @@ const I18N = {
 
     "hero.kicker": "Informatique",
     "hero.headline": "Étudiant en informatique (option Gestion & Entrepreneuriat).",
+    "hero.resume": "CV (PDF)",
 
     "about.title": "À propos",
-    "about.body": "Je suis Anass Benharbit, étudiant en informatique (option Gestion et Entrepreneuriat) à Ottawa. J’aime construire des logiciels concrets—des projets web full‑stack jusqu’à des prototypes data/ML—et je travaille bien dans des environnements structurés avec des deadlines. Pendant mon stage, j’ai réalisé un prototype de détection de fraude en Python et travaillé sur des sujets liés aux données et à l’optimisation, ce qui a renforcé ma rigueur et ma capacité d’analyse. Je suis collaboratif, attentif aux détails, et je communique facilement dans des équipes multiculturelles (français, anglais, arabe; espagnol intermédiaire).",
+    "about.body": "Je suis Anass Benharbit, étudiant en informatique (option Gestion et Entrepreneuriat) à Ottawa. J’aime construire des logiciels concrets—des projets web full‑stack jusqu’à des prototypes data/ML—et je travaille bien dans des environnements structurés avec des deadlines. Lors de mon stage, j’ai développé un prototype de détection de fraude en Python (Isolation Forest) et travaillé sur l’identification de motifs de transactions récurrentes. Je suis collaboratif, rigoureux, et à l’aise dans des équipes multiculturelles (français, anglais, arabe; espagnol intermédiaire).",
 
     "work.title": "Ma façon de travailler",
     "work.collabTitle": "Collaboratif",

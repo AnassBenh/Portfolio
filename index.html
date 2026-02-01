@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Anass Benharbit — Portfolio</title>
-  <meta name="description" content="Anass Benharbit — Computer Science student portfolio (EN/FR)" />
+  <meta name="description" content="Anass Benharbit — Computer Science portfolio (EN/FR)" />
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css" />
@@ -12,7 +12,7 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+  <nav class="navbar navbar-expand-lg border-bottom sticky-top">
     <div class="container">
       <a class="navbar-brand fw-semibold" href="#top">Anass Benharbit</a>
 
@@ -21,15 +21,13 @@
       </button>
 
       <div id="nav" class="collapse navbar-collapse">
-        <ul class="navbar-nav ms-auto gap-lg-2">
+        <ul class="navbar-nav ms-auto gap-lg-2 align-items-lg-center">
           <li class="nav-item"><a class="nav-link" href="#about" data-i18n="nav.about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#work" data-i18n="nav.work">How I work</a></li>
           <li class="nav-item"><a class="nav-link" href="#projects" data-i18n="nav.projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="#case-studies" data-i18n="nav.caseStudies">Case studies</a></li>
           <li class="nav-item">
-            <button id="langToggle" class="btn btn-sm btn-outline-light ms-lg-2" type="button">
-              FR
-            </button>
+            <button id="langToggle" class="btn btn-sm btn-outline-light ms-lg-2" type="button">FR</button>
           </li>
         </ul>
       </div>
@@ -42,7 +40,9 @@
       <div class="row align-items-center g-4">
         <div class="col-md-8">
           <p class="text-uppercase small text-muted mb-2" data-i18n="hero.kicker">Computer Science</p>
-          <h1 class="display-6 mb-2">Anass Benharbit</h1>
+
+          <h1 class="display-6 mb-2 text-white fw-bold">Anass Benharbit</h1>
+
           <p class="lead text-muted mb-4" data-i18n="hero.headline">
             Computer Science student (Management & Entrepreneurship option).
           </p>
@@ -51,23 +51,25 @@
             <a class="btn btn-primary" href="https://www.linkedin.com/in/anass-benharbit-0129332b2/" target="_blank" rel="noopener">
               LinkedIn
             </a>
-            <a class="btn btn-outline-dark" href="mailto:benharbitanass@gmail.com">
+
+            <a class="btn btn-outline-light" href="mailto:benharbitanass@gmail.com">
               Email
             </a>
-            <a class="btn btn-outline-secondary" href="https://github.com/AnassBenh" target="_blank" rel="noopener">
+
+            <a class="btn btn-outline-light" href="https://github.com/AnassBenh" target="_blank" rel="noopener">
               GitHub
             </a>
+
             <a class="btn btn-outline-light" href="assets/files/Anass_Benharbit_CV.pdf" target="_blank" rel="noopener">
-              Resume (PDF)
+              <span data-i18n="hero.resume">Resume (PDF)</span>
             </a>
           </div>
 
-          <p class="mt-3 mb-0 text-muted small">
-            Ottawa, Canada
-          </p>
+          <p class="mt-3 mb-0 text-muted small">Ottawa, Canada</p>
         </div>
 
         <div class="col-md-4 text-md-end">
+          <!-- IMPORTANT: renomme ta photo en profile.jpg -->
           <img class="profile-img" src="assets/img/profile.jpg" alt="Portrait of Anass Benharbit" />
         </div>
       </div>
@@ -75,11 +77,11 @@
   </header>
 
   <!-- About -->
-  <section id="about" class="py-5 border-top bg-soft">
+  <section id="about" class="py-5">
     <div class="container">
-      <h2 class="h4 mb-3" data-i18n="about.title">About</h2>
+      <h2 class="h4 mb-3 text-white fw-bold" data-i18n="about.title">About</h2>
       <p class="text-muted mb-0" data-i18n="about.body">
-        I’m Anass Benharbit, a Computer Science student (Management & Entrepreneurship option) based in Ottawa...
+        I’m Anass Benharbit, a Computer Science student...
       </p>
     </div>
   </section>
@@ -87,13 +89,13 @@
   <!-- How I work -->
   <section id="work" class="py-5">
     <div class="container">
-      <h2 class="h4 mb-3" data-i18n="work.title">How I work</h2>
+      <h2 class="h4 mb-3 text-white fw-bold" data-i18n="work.title">How I work</h2>
 
       <div class="row g-3">
         <div class="col-md-4">
           <div class="card h-100 card-min">
             <div class="card-body">
-              <h3 class="h6" data-i18n="work.collabTitle">Collaborative</h3>
+              <h3 class="h6 text-white fw-bold" data-i18n="work.collabTitle">Collaborative</h3>
               <p class="text-muted mb-0" data-i18n="work.collabBody">
                 I like clear communication, small iterations, and shared ownership.
               </p>
@@ -104,7 +106,7 @@
         <div class="col-md-4">
           <div class="card h-100 card-min">
             <div class="card-body">
-              <h3 class="h6" data-i18n="work.processTitle">Process-driven</h3>
+              <h3 class="h6 text-white fw-bold" data-i18n="work.processTitle">Process-driven</h3>
               <p class="text-muted mb-0" data-i18n="work.processBody">
                 Define goals → design → implement → test → refine with feedback.
               </p>
@@ -115,7 +117,7 @@
         <div class="col-md-4">
           <div class="card h-100 card-min">
             <div class="card-body">
-              <h3 class="h6" data-i18n="work.qualityTitle">Quality-focused</h3>
+              <h3 class="h6 text-white fw-bold" data-i18n="work.qualityTitle">Quality-focused</h3>
               <p class="text-muted mb-0" data-i18n="work.qualityBody">
                 I aim for readable code, consistent UI, and on-time delivery.
               </p>
@@ -128,10 +130,10 @@
   </section>
 
   <!-- Projects -->
-  <section id="projects" class="py-5 border-top bg-soft">
+  <section id="projects" class="py-5">
     <div class="container">
       <div class="d-flex align-items-end justify-content-between gap-3 flex-wrap">
-        <h2 class="h4 mb-0" data-i18n="projects.title">Projects</h2>
+        <h2 class="h4 mb-0 text-white fw-bold" data-i18n="projects.title">Projects</h2>
         <p class="text-muted mb-0 small" data-i18n="projects.note">Selected work (GitHub links).</p>
       </div>
 
@@ -140,14 +142,14 @@
         <div class="col-md-6">
           <div class="card h-100 card-min">
             <div class="card-body">
-              <div class="d-flex justify-content-between gap-3">
-                <h3 class="h6 mb-1" data-i18n="p1.title">Hotel Website (Team Project)</h3>
+              <div class="d-flex justify-content-between gap-3 flex-wrap">
+                <h3 class="h6 mb-1 text-white fw-bold" data-i18n="p1.title">Hotel Website (Team Project)</h3>
                 <span class="badge text-bg-light">HTML · Python · SQL</span>
               </div>
               <p class="text-muted mb-3" data-i18n="p1.desc">
                 Team-built hotel website delivered across 4 deadline-based milestones.
               </p>
-              <a class="btn btn-sm btn-outline-primary" href="https://github.com/AnassBenh/ProjectCSI2532-hotel-website" target="_blank" rel="noopener">
+              <a class="btn btn-sm btn-outline-light" href="https://github.com/AnassBenh/ProjectCSI2532-hotel-website" target="_blank" rel="noopener">
                 Code
               </a>
             </div>
@@ -158,14 +160,14 @@
         <div class="col-md-6">
           <div class="card h-100 card-min">
             <div class="card-body">
-              <div class="d-flex justify-content-between gap-3">
-                <h3 class="h6 mb-1" data-i18n="p2.title">Image Similarity Search</h3>
+              <div class="d-flex justify-content-between gap-3 flex-wrap">
+                <h3 class="h6 mb-1 text-white fw-bold" data-i18n="p2.title">Image Similarity Search</h3>
                 <span class="badge text-bg-light">Java · Go · Prolog · Scheme</span>
               </div>
               <p class="text-muted mb-3" data-i18n="p2.desc">
                 Similarity search: compare a query image set against a larger dataset, delivered in multiple languages.
               </p>
-              <a class="btn btn-sm btn-outline-primary" href="https://github.com/AnassBenh/CSI-2520-SimilaritySearch-images" target="_blank" rel="noopener">
+              <a class="btn btn-sm btn-outline-light" href="https://github.com/AnassBenh/CSI-2520-SimilaritySearch-images" target="_blank" rel="noopener">
                 Code
               </a>
             </div>
@@ -176,14 +178,14 @@
         <div class="col-md-6">
           <div class="card h-100 card-min">
             <div class="card-body">
-              <div class="d-flex justify-content-between gap-3">
-                <h3 class="h6 mb-1" data-i18n="p3.title">AI / ML / DL (Jupyter Deliverables)</h3>
+              <div class="d-flex justify-content-between gap-3 flex-wrap">
+                <h3 class="h6 mb-1 text-white fw-bold" data-i18n="p3.title">AI / ML / DL (Jupyter Deliverables)</h3>
                 <span class="badge text-bg-light">Python · Jupyter</span>
               </div>
               <p class="text-muted mb-3" data-i18n="p3.desc">
                 Data prep, model training/evaluation, hyperparameter tuning, and neural network regularization across 4 deliverables.
               </p>
-              <a class="btn btn-sm btn-outline-primary" href="https://github.com/AnassBenh/CSI-4506-IA-ML-DL" target="_blank" rel="noopener">
+              <a class="btn btn-sm btn-outline-light" href="https://github.com/AnassBenh/CSI-4506-IA-ML-DL" target="_blank" rel="noopener">
                 Code
               </a>
             </div>
@@ -194,14 +196,14 @@
         <div class="col-md-6">
           <div class="card h-100 card-min">
             <div class="card-body">
-              <div class="d-flex justify-content-between gap-3">
-                <h3 class="h6 mb-1" data-i18n="p4.title">Android App (Admin/Employee/Customer)</h3>
+              <div class="d-flex justify-content-between gap-3 flex-wrap">
+                <h3 class="h6 mb-1 text-white fw-bold" data-i18n="p4.title">Android App (Admin/Employee/Customer)</h3>
                 <span class="badge text-bg-light">Android</span>
               </div>
               <p class="text-muted mb-3" data-i18n="p4.desc">
                 Role-based app: admins manage services; clients search branches by address, service type, and opening hours.
               </p>
-              <a class="btn btn-sm btn-outline-primary" href="https://github.com/AnassBenh/SEG-2505-Android-App" target="_blank" rel="noopener">
+              <a class="btn btn-sm btn-outline-light" href="https://github.com/AnassBenh/SEG-2505-Android-App" target="_blank" rel="noopener">
                 Code
               </a>
             </div>
@@ -212,14 +214,14 @@
         <div class="col-md-6">
           <div class="card h-100 card-min">
             <div class="card-body">
-              <div class="d-flex justify-content-between gap-3">
-                <h3 class="h6 mb-1" data-i18n="p5.title">Fraud & Recurrence (Internship)</h3>
+              <div class="d-flex justify-content-between gap-3 flex-wrap">
+                <h3 class="h6 mb-1 text-white fw-bold" data-i18n="p5.title">Fraud & Recurrence (Internship)</h3>
                 <span class="badge text-bg-light">Python · ML</span>
               </div>
               <p class="text-muted mb-3" data-i18n="p5.desc">
                 Fraud + recurring pattern detection work developed during my internship (prototype/research project).
               </p>
-              <a class="btn btn-sm btn-outline-primary" href="https://github.com/AnassBenh/Fraud-and-Recurrence-in-Transactions-using-Machine-Learning" target="_blank" rel="noopener">
+              <a class="btn btn-sm btn-outline-light" href="https://github.com/AnassBenh/Fraud-and-Recurrence-in-Transactions-using-Machine-Learning" target="_blank" rel="noopener">
                 Code
               </a>
             </div>
@@ -233,19 +235,19 @@
   <!-- Case Studies -->
   <section id="case-studies" class="py-5">
     <div class="container">
-      <h2 class="h4 mb-3" data-i18n="cs.title">Case studies (4)</h2>
-      <div class="accordion" id="csAcc">
+      <h2 class="h4 mb-3 text-white fw-bold" data-i18n="cs.title">Case studies (4)</h2>
 
+      <div class="accordion" id="csAcc">
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#cs1">
-              <span data-i18n="cs1.title">Hotel Website — Team delivery</span>
+              <span class="text-white fw-bold" data-i18n="cs1.title">Hotel Website — Team delivery</span>
             </button>
           </h2>
           <div id="cs1" class="accordion-collapse collapse show" data-bs-parent="#csAcc">
             <div class="accordion-body">
-              <p class="text-muted" data-i18n="cs1.body">
-                Context, constraints, process, and UI decisions: milestones, deadlines, database-backed features, and collaboration.
+              <p class="text-muted mb-0" data-i18n="cs1.body">
+                Context, constraints, process, and UI decisions...
               </p>
             </div>
           </div>
@@ -254,13 +256,13 @@
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cs2">
-              <span data-i18n="cs2.title">Image Similarity Search — Multi-language implementations</span>
+              <span class="text-white fw-bold" data-i18n="cs2.title">Image Similarity Search — Multi-language implementations</span>
             </button>
           </h2>
           <div id="cs2" class="accordion-collapse collapse" data-bs-parent="#csAcc">
             <div class="accordion-body">
-              <p class="text-muted" data-i18n="cs2.body">
-                How I approached algorithm design, evaluation, and translating the solution across Java/Go/Prolog/Scheme.
+              <p class="text-muted mb-0" data-i18n="cs2.body">
+                How I approached algorithm design...
               </p>
             </div>
           </div>
@@ -269,13 +271,13 @@
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cs3">
-              <span data-i18n="cs3.title">AI/ML/DL — From data to experiments</span>
+              <span class="text-white fw-bold" data-i18n="cs3.title">AI/ML/DL — From data to experiments</span>
             </button>
           </h2>
           <div id="cs3" class="accordion-collapse collapse" data-bs-parent="#csAcc">
             <div class="accordion-body">
-              <p class="text-muted" data-i18n="cs3.body">
-                Data cleaning, preprocessing, model training, hyperparameter tuning, regularization, and reporting results.
+              <p class="text-muted mb-0" data-i18n="cs3.body">
+                Data cleaning, preprocessing...
               </p>
             </div>
           </div>
@@ -284,18 +286,17 @@
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cs4">
-              <span data-i18n="cs4.title">Android App — Role-based service management</span>
+              <span class="text-white fw-bold" data-i18n="cs4.title">Android App — Role-based service management</span>
             </button>
           </h2>
           <div id="cs4" class="accordion-collapse collapse" data-bs-parent="#csAcc">
             <div class="accordion-body">
-              <p class="text-muted" data-i18n="cs4.body">
-                Admin/employee/client flows, search UX, and clean separation of responsibilities.
+              <p class="text-muted mb-0" data-i18n="cs4.body">
+                Admin/employee/client flows...
               </p>
             </div>
           </div>
         </div>
-
       </div>
 
       <div class="mt-4 small text-muted" data-i18n="footer.note">

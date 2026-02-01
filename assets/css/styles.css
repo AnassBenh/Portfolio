@@ -19,7 +19,6 @@ body{
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans", "Liberation Sans", sans-serif;
 }
 
-/* Override Bootstrap muted */
 .text-muted { color: var(--muted) !important; }
 
 /* Navbar */
@@ -31,25 +30,7 @@ body{
 .navbar .nav-link, .navbar .navbar-brand { color: var(--text) !important; }
 .navbar .nav-link:hover { color: #ffffff !important; }
 
-/* Sections */
-.bg-soft { background: transparent; } /* on enlève les blocs blancs */
-
-/* Buttons */
-.btn-primary{
-  background: var(--accent);
-  border-color: var(--accent);
-}
-.btn-outline-primary{
-  color: var(--accent);
-  border-color: rgba(59,130,246,0.55);
-}
-.btn-outline-primary:hover{
-  background: rgba(59,130,246,0.12);
-  border-color: rgba(59,130,246,0.85);
-  color: #fff;
-}
-
-/* Cards */
+/* Cards / accordion */
 .card-min, .accordion-item{
   background: var(--card);
   border: 1px solid var(--border);
@@ -63,6 +44,19 @@ body{
   border: 1px solid var(--border);
 }
 
+/* Accordion buttons (dark theme) */
+.accordion-button{
+  background: rgba(255,255,255,0.04) !important;
+  color: var(--text) !important;
+}
+.accordion-button:not(.collapsed){
+  background: rgba(59,130,246,0.10) !important;
+  color: #fff !important;
+}
+.accordion-button:focus{
+  box-shadow: none !important;
+}
+
 /* Profile image */
 .profile-img{
   width: 180px;
@@ -71,4 +65,40 @@ body{
   border-radius: 18px;
   border: 1px solid var(--border);
   box-shadow: 0 16px 40px rgba(0,0,0,0.35);
+}
+
+/* Buttons: same look everywhere */
+.btn{
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.btn, .btn:focus{
+  box-shadow: none !important;
+}
+
+.btn-primary{
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.btn-outline-light{
+  border-color: rgba(255,255,255,0.22) !important;
+  color: rgba(255,255,255,0.92) !important;
+}
+.btn-outline-light:hover{
+  background: rgba(255,255,255,0.10) !important;
+  border-color: rgba(255,255,255,0.35) !important;
+}
+
+.btn-outline-primary{
+  color: var(--accent);
+  border-color: rgba(59,130,246,0.55);
+}
+.btn-outline-primary:hover{
+  background: rgba(59,130,246,0.12);
+  border-color: rgba(59,130,246,0.85);
+  color: #fff;
 }
