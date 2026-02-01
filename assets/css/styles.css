@@ -1,36 +1,74 @@
 :root{
-  --accent: #1e6ef4;   /* blue */
-  --text: #0f172a;     /* near-black */
-  --muted: #475569;    /* gray */
-  --soft: #f6f8fb;     /* light gray background */
-  --border: #e5e7eb;
+  --accent: #3b82f6;     /* blue */
+  --bg0: #0b1220;        /* deep blue/gray */
+  --bg1: #0f172a;        /* slate */
+  --card: rgba(255,255,255,0.06);
+  --border: rgba(255,255,255,0.10);
+  --text: rgba(255,255,255,0.92);
+  --muted: rgba(255,255,255,0.70);
 }
 
-body { color: var(--text); }
-.text-muted { color: var(--muted) !important; }
-.bg-soft { background: var(--soft); }
+html, body { height: 100%; }
 
+body{
+  color: var(--text);
+  background:
+    radial-gradient(800px 500px at 20% 0%, rgba(59,130,246,0.18), transparent 55%),
+    radial-gradient(800px 500px at 90% 10%, rgba(99,102,241,0.14), transparent 55%),
+    linear-gradient(180deg, var(--bg0), var(--bg1));
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+/* Override Bootstrap muted */
+.text-muted { color: var(--muted) !important; }
+
+/* Navbar */
+.navbar{
+  background: rgba(15,23,42,0.65) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border) !important;
+}
+.navbar .nav-link, .navbar .navbar-brand { color: var(--text) !important; }
+.navbar .nav-link:hover { color: #ffffff !important; }
+
+/* Sections */
+.bg-soft { background: transparent; } /* on enlève les blocs blancs */
+
+/* Buttons */
 .btn-primary{
   background: var(--accent);
   border-color: var(--accent);
 }
+.btn-outline-primary{
+  color: var(--accent);
+  border-color: rgba(59,130,246,0.55);
+}
+.btn-outline-primary:hover{
+  background: rgba(59,130,246,0.12);
+  border-color: rgba(59,130,246,0.85);
+  color: #fff;
+}
 
+/* Cards */
+.card-min, .accordion-item{
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+.badge.text-bg-light{
+  background: rgba(255,255,255,0.10) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border);
+}
+
+/* Profile image */
 .profile-img{
   width: 180px;
   height: 180px;
   object-fit: cover;
   border-radius: 18px;
   border: 1px solid var(--border);
-}
-
-.card-min{
-  border: 1px solid var(--border);
-  border-radius: 14px;
-}
-
-.accordion-item{
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  overflow: hidden;
-  margin-bottom: 10px;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.35);
 }
