@@ -60,8 +60,6 @@ const I18N = {
     "p5.cs.constraints": "Constraints: Data quality and signal-to-noise challenges, need for explainable outputs, and rapid iteration to validate feasibility.",
     "p5.cs.process": "Process: Explored the dataset → engineered a first feature set → trained an anomaly-detection baseline → reviewed suspicious patterns → refined features and thresholds → documented findings and next steps.",
     "p5.cs.outcome": "Outcome: Delivered a working prototype and gained hands-on experience with practical ML iteration and data-driven problem solving.",
-
-    "footer.note": "Built with Bootstrap and hosted on GitHub Pages."
   },
 
   fr: {
@@ -125,8 +123,6 @@ const I18N = {
     "p5.cs.constraints": "Contraintes : Qualité des données, signal/bruit, besoin d’outputs compréhensibles, et itérations rapides pour valider la faisabilité.",
     "p5.cs.process": "Process : Explorer le dataset → créer des features → entraîner une baseline d’anomalies → analyser les patterns suspects → ajuster features/seuils → documenter conclusions et next steps.",
     "p5.cs.outcome": "Résultat : Prototype fonctionnel + expérience concrète d’itération ML et de résolution de problèmes orientée données.",
-
-    "footer.note": "Construit avec Bootstrap et hébergé sur GitHub Pages."
   }
 };
 
