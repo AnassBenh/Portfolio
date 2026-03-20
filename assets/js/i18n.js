@@ -60,7 +60,19 @@ const I18N = {
     "p5.cs.constraints": "Constraints: Data quality and signal-to-noise challenges, need for explainable outputs, and rapid iteration to validate feasibility.",
     "p5.cs.process": "Process: Explored the dataset → engineered a first feature set → trained an anomaly-detection baseline → reviewed suspicious patterns → refined features and thresholds → documented findings and next steps.",
     "p5.cs.outcome": "Outcome: Delivered a working prototype and gained hands-on experience with practical ML iteration and data-driven problem solving.",
+    
+    "p6.title": "Study Planner AI",
+    "p6.desc": "A bilingual AI chatbot prototype for university students that generates study plans from natural-language requests. The application was built with Gradio, connected to a Groq-powered LLM API, and deployed on Hugging Face Spaces. The focus was on chatbot UX, bilingual interaction, and iterative improvement through storyboard-driven design.",
+    "p6.cs.context": "Context: UX-oriented chatbot project for a university course, developed from storyboard to high-fidelity prototype.",
+    "p6.cs.role": "My role: Designed the chatbot concept, built the Gradio interface, integrated the Groq API, and deployed the prototype on Hugging Face.",
+    "p6.cs.constraints": "Constraints: Needed a clear bilingual experience, a realistic academic-planning use case, API-based LLM integration, and a deployable prototype under course deadlines.",
+    "p6.cs.process": "Process: Defined the persona and use case → created the storyboard → designed the chatbot interaction flow → integrated the LLM API → refined the interface based on usability and clarity goals.",
+    "p6.cs.outcome": "Outcome: Delivered a functional AI chatbot prototype that can generate and reorganize study plans through natural conversation, while strengthening my skills in prompt design, API integration, and conversational UX.",
+  
+  
   },
+
+
 
   fr: {
     "nav.about": "À propos de moi",
@@ -123,6 +135,17 @@ const I18N = {
     "p5.cs.constraints": "Contraintes : Qualité des données, signal/bruit, besoin d’outputs compréhensibles, et itérations rapides pour valider la faisabilité.",
     "p5.cs.process": "Process : Explorer le dataset → créer des features → entraîner une baseline d’anomalies → analyser les patterns suspects → ajuster features/seuils → documenter conclusions et next steps.",
     "p5.cs.outcome": "Résultat : Prototype fonctionnel + expérience concrète d’itération ML et de résolution de problèmes orientée données.",
+    
+    "p6.title": "Study Planner AI",
+    "p6.desc": "Prototype de chatbot IA bilingue pour étudiants universitaires, capable de générer un planning d’étude à partir d’une demande formulée en langage naturel. L’application a été développée avec Gradio, connectée à une API LLM via Groq, puis déployée sur Hugging Face Spaces. L’accent a été mis sur l’UX conversationnelle, l’interaction bilingue et une conception itérative guidée par storyboard.",
+    "p6.cs.context": "Contexte : Projet universitaire orienté UX autour d’un chatbot, développé du storyboard jusqu’au prototype haute fidélité.",
+    "p6.cs.role": "Mon rôle : Conception du chatbot, développement de l’interface Gradio, intégration de l’API Groq et déploiement du prototype sur Hugging Face.",
+    "p6.cs.constraints": "Contraintes : Offrir une expérience bilingue claire, un cas d’usage académique crédible, une intégration LLM via API, et un prototype déployable dans les délais du cours.",
+    "p6.cs.process": "Process : Définition du persona et du besoin → création du storyboard → conception du flux conversationnel → intégration de l’API LLM → amélioration de l’interface selon des objectifs de clarté et d’utilisabilité.",
+    "p6.cs.outcome": "Résultat : Prototype de chatbot IA fonctionnel capable de générer et réorganiser des plannings d’étude par conversation naturelle, avec un vrai gain de compétence en prompt design, intégration d’API et UX conversationnelle.",
+  
+  
+  
   }
 };
 
@@ -146,3 +169,8 @@ document.getElementById("langToggle").addEventListener("click", () => {
 });
 
 applyLang(localStorage.getItem("lang") || "en");
+// en
+"p.detailsBtn": "Details",
+
+// fr
+"p.detailsBtn": "Détails",
