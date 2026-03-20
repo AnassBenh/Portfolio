@@ -169,8 +169,3 @@ document.getElementById("langToggle").addEventListener("click", () => {
 });
 
 applyLang(localStorage.getItem("lang") || "en");
-// en
-"p.detailsBtn": "Details",
-
-// fr
-"p.detailsBtn": "Détails",
