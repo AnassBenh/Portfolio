@@ -151,6 +151,11 @@ const I18N = {
   }
 };
 
+const RESUME_BY_LANG = {
+  en: "assets/files/Anass_Benharbit_CV_Data_Analyst_EN.pdf",
+  fr: "assets/files/Anass_Benharbit_CV_Analyste_Donnees_FR.pdf"
+};
+
 let current = "en";
 
 function applyLang(lang) {
@@ -164,6 +169,7 @@ function applyLang(lang) {
 
   localStorage.setItem("lang", lang);
   document.getElementById("langToggle").textContent = (lang === "en") ? "FR" : "EN";
+  document.getElementById("resumeLink").href = RESUME_BY_LANG[lang];
 }
 
 document.getElementById("langToggle").addEventListener("click", () => {
