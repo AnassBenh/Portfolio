@@ -4,12 +4,13 @@ const I18N = {
     "nav.work": "How I work",
     "nav.projects": "Projects",
 
-    "hero.kicker": "Computer Science",
-    "hero.headline": "Computer Science student (Management & Entrepreneurship option).",
+    "hero.kicker": "Computer Science & Management",
+    "hero.headline": "Computer Science & Management Graduate | Data Analytics | Python & SQL | Software Development | Montréal",
+    "hero.location": "Montréal, Canada",
     "hero.resume": "Resume (PDF)",
 
     "about.title": "About me",
-    "about.body": "I’m Anass Benharbit, a Computer Science student (Management & Entrepreneurship option) based in Ottawa. I enjoy building practical software—from full‑stack web projects to data/ML prototypes—and I work well in structured, deadline‑driven environments. During my internship, I built a fraud detection prototype using Python (Isolation Forest) and explored recurring transaction pattern detection. I’m collaborative, detail‑oriented, and comfortable working in multicultural teams (French, English, Arabic; Spanish intermediate).",
+    "about.body": "Computer Science & Management graduate from the University of Ottawa, with experience in software development, data analysis, and content evaluation. I enjoy working on problems that combine technical thinking, data, and business understanding. My background has given me exposure to software engineering, analytical work, and structured quality evaluation in professional environments. I previously gained data analytics experience at HPS and currently work on evaluation projects with Mercor, where I review complex outputs using defined quality and consistency criteria. My technical background includes Python, SQL, data analysis, software development, and problem solving. Based in Montréal and interested in opportunities in Data Analytics, Business Intelligence, Software, and technology-focused roles.",
 
     "work.title": "How I work",
     "work.collabTitle": "Collaborative",
@@ -79,12 +80,13 @@ const I18N = {
     "nav.work": "Ma façon de travailler",
     "nav.projects": "Projets",
 
-    "hero.kicker": "Informatique",
-    "hero.headline": "Étudiant en informatique (option Gestion & Entrepreneuriat).",
+    "hero.kicker": "Informatique et gestion",
+    "hero.headline": "Diplômé en informatique et gestion | Analyse de données | Python et SQL | Développement logiciel | Montréal",
+    "hero.location": "Montréal, Canada",
     "hero.resume": "CV (PDF)",
 
     "about.title": "À propos de moi",
-    "about.body": "Je suis Anass Benharbit, étudiant en informatique (option Gestion et Entrepreneuriat) à Ottawa. J’aime construire des logiciels concrets—des projets web full‑stack jusqu’à des prototypes data/ML—et je suis à l’aise dans des environnements structurés avec des deadlines. Lors de mon stage, j’ai développé un prototype de détection de fraude en Python (Isolation Forest) et travaillé sur l’identification de motifs de transactions récurrentes. Je suis collaboratif, rigoureux, et je m’adapte facilement à des équipes multiculturelles (français, anglais, arabe; espagnol intermédiaire).",
+    "about.body": "Diplômé en informatique et gestion de l’Université d’Ottawa, je possède de l’expérience en développement logiciel, en analyse de données et en évaluation de contenu. J’aime travailler sur des problèmes qui combinent réflexion technique, données et compréhension des enjeux d’affaires. Mon parcours m’a permis de toucher au génie logiciel, au travail analytique et à l’évaluation structurée de la qualité dans des environnements professionnels. J’ai acquis de l’expérience en analyse de données chez HPS et je travaille actuellement sur des projets d’évaluation avec Mercor, où j’examine des résultats complexes selon des critères définis de qualité et de cohérence. Mes compétences techniques comprennent Python, SQL, l’analyse de données, le développement logiciel et la résolution de problèmes. Établi à Montréal, je m’intéresse aux possibilités en analyse de données, en intelligence d’affaires, en développement logiciel et dans les rôles axés sur la technologie.",
 
     "work.title": "Ma façon de travailler",
     "work.collabTitle": "Collaboratif",
