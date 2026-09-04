@@ -69,6 +69,14 @@ const I18N = {
     "p6.cs.constraints": "Constraints: Needed a clear bilingual experience, a realistic academic-planning use case, API-based LLM integration, and a deployable prototype under course deadlines.",
     "p6.cs.process": "Process: Defined the persona and use case → created the storyboard → designed the chatbot interaction flow → integrated the LLM API → refined the interface based on usability and clarity goals.",
     "p6.cs.outcome": "Outcome: Delivered a functional AI chatbot prototype that can generate and reorganize study plans through natural conversation, while strengthening my skills in prompt design, API integration, and conversational UX.",
+
+    "p7.title": "Smart Backup",
+    "p7.desc": "An AI-assisted photo backup application that analyzes image quality and content before deciding whether to back up, review, or ignore each file. The Python pipeline detects dark, blurry, and near-duplicate images, identifies people, classifies content with PyTorch models, and uploads approved photos to Google Drive through a Kivy interface.",
+    "p7.cs.context": "Context: Capstone prototype designed to reduce photo-library clutter and make cloud backup decisions more selective.",
+    "p7.cs.role": "My role: Contributed to the image-analysis pipeline, configurable category rules, Kivy mobile interface, and Google Drive integration.",
+    "p7.cs.constraints": "Constraints: Multiple image formats, imperfect classification results, duplicate detection, user-controlled decisions, and secure Google Drive authentication.",
+    "p7.cs.process": "Process: Scan selected images → filter dark, blurry, and near-duplicate files → detect people and classify content → apply category rules → let the user review results → upload approved files to Google Drive.",
+    "p7.cs.outcome": "Outcome: Built a functional end-to-end prototype that groups photos into backup, review, and ignore workflows while keeping the final decision under user control.",
   
   
   },
@@ -145,6 +153,14 @@ const I18N = {
     "p6.cs.constraints": "Contraintes : Offrir une expérience bilingue claire, un cas d’usage académique crédible, une intégration LLM via API, et un prototype déployable dans les délais du cours.",
     "p6.cs.process": "Process : Définition du persona et du besoin → création du storyboard → conception du flux conversationnel → intégration de l’API LLM → amélioration de l’interface selon des objectifs de clarté et d’utilisabilité.",
     "p6.cs.outcome": "Résultat : Prototype de chatbot IA fonctionnel capable de générer et réorganiser des plannings d’étude par conversation naturelle, avec un vrai gain de compétence en prompt design, intégration d’API et UX conversationnelle.",
+
+    "p7.title": "Smart Backup",
+    "p7.desc": "Application de sauvegarde de photos assistée par IA qui analyse la qualité et le contenu des images avant de décider si chaque fichier doit être sauvegardé, révisé ou ignoré. Le pipeline Python détecte les images sombres, floues et presque identiques, repère les personnes, classe le contenu avec des modèles PyTorch et téléverse les photos approuvées vers Google Drive à partir d’une interface Kivy.",
+    "p7.cs.context": "Contexte : Prototype de projet de fin d’études conçu pour réduire l’encombrement d’une photothèque et rendre la sauvegarde infonuagique plus sélective.",
+    "p7.cs.role": "Mon rôle : Contribution au pipeline d’analyse d’images, aux règles de catégories configurables, à l’interface mobile Kivy et à l’intégration de Google Drive.",
+    "p7.cs.constraints": "Contraintes : Multiples formats d’image, résultats de classification imparfaits, détection des doublons, décisions contrôlées par l’utilisateur et authentification sécurisée avec Google Drive.",
+    "p7.cs.process": "Processus : Analyser les images sélectionnées → filtrer les fichiers sombres, flous et presque identiques → détecter les personnes et classer le contenu → appliquer les règles de catégories → permettre la révision des résultats → téléverser les fichiers approuvés vers Google Drive.",
+    "p7.cs.outcome": "Résultat : Prototype fonctionnel de bout en bout qui répartit les photos entre les parcours de sauvegarde, de révision et d’exclusion tout en laissant la décision finale à l’utilisateur.",
   
   
   
